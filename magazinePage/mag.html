@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
 
     <title>8 Bit</title>
-    <link rel="icon" type="image/x-icon" href="../assets/images/8Bit logo Transparent.png">
+    <link rel="icon" type="image/x-icon" href="../assets/images/logo.png">
 
     <!-- Additional CSS Files -->
     <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.min.css">
@@ -19,11 +19,14 @@
 
     <link rel="stylesheet" href="./assets/css/mag1.css">
 
-    <link rel="stylesheet" href="../assets/css/owl-carousel.css">
+        <link rel="stylesheet" href="../assets/css/owl-carousel.css">
+        <link rel="stylesheet" href="../assets/css/common.css">
+
 
 </head>
 
 <body>
+    
 
     <!-- ***** Header Area Start ***** -->
     <header class="header-area header-sticky">
@@ -38,14 +41,13 @@
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
-                            <li class="scroll-to-section"><a href="../index.html" class="menu-item">Home</a></li>
-                            <li class="scroll-to-section"><a href="../index.html" class="menu-item">New Reads</a></li>
+                            <li class="scroll-to-section"><a href="../index.html#welcome" class="menu-item">Home</a></li>
+                            <li class="scroll-to-section"><a href="../index.html#about" class="menu-item">New Reads</a></li>
                             <li><a href="../team/team.html">The Team</a>
-                            </li>
-                            <li class="submenu">
+                            <li>
                                 <a href="./mag.html">Previous Editions</a>
                             </li>
-                            <li class="scroll-to-section"><a href="../index.html" class="menu-item">Reach Us</a></li>
+                            <li class="scroll-to-section"><a href="../index.html#contact-us" class="menu-item">Reach Us</a></li>
                         </ul>
                         <a class='menu-trigger'>
                             <span>Menu</span>
@@ -57,14 +59,8 @@
         </div>
     </header>
     <!-- ***** Header Area End ***** -->
+    <video id="myVideo"src="../assets/images/homebg.mp4" ></video>
 
-    <div class="imgbck">
-        <div class="text">Magazines</div>
-    </div>
-    <div>
-    </div>
-    <div class="left-image-decor"></div>
-    <div class="right-image-decor"></div>
     <div class="mainpage">
            <div class="h1-c1">
             <h1>Latest editions</h1>
@@ -259,7 +255,39 @@
         <img src="assets/images/next.png" id="nextBtn">
     </div>
        </div>
-        
+       <hr style="border-top: 1px solid rgb(255, 255, 255);">
+       <footer id="contact-us">
+           <div class="container">
+               <div class="footer-content" style="padding: 0;">
+                   <div class="row">
+                       <div class="col-lg-6 col-md-12 col-sm-12">
+                           <div class="left-image col-lg-5 col-md-12 col-sm-12 mobile-bottom-fix-big"
+                       data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                           <img class ="logoend"src="../assets/images/8Bit logo Transparent.png">
+                       </div>
+                       </div>
+                       <div class="right-content col-lg-6 col-md-12 col-sm-12">
+                           <h2>Contact Us</h2>
+                           <p>We would love you guys to involve and share your ideas, feedback to the team to make the magazine better.</p>
+                           <ul class="social">
+                               <li><a href="mailto:8bit@iiitb.ac.in"><i class="fa fa-envelope"></i></a></li>
+                               <li><a href="https://www.instagram.com/8bit_iiitb/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                           </ul>
+                       </div>
+                   </div>
+               </div>
+               <div class="row">
+                   <div class="col-lg-12">
+                       <div class="sub-footer">
+                           <p>Copyright &copy; 2023 8-Bit
+   
+                          </p>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </footer>
+
         <script>
             var w = window.innerWidth;
 
@@ -293,4 +321,20 @@
     });
          </script>
     </body>
+         <!-- jQuery -->
+         <script src="../assets/js/jquery-2.1.0.min.js"></script>
+
+         <!-- Bootstrap -->
+         <script src="../assets/js/popper.js"></script>
+         <script src="../assets/js/bootstrap.min.js"></script>
+     
+         <!-- Plugins -->
+         <script src="../assets/js/owl-carousel.js"></script>
+         <script src="../assets/js/scrollreveal.min.js"></script>
+         <script src="../assets/js/waypoints.min.js"></script>
+         <script src="../assets/js/jquery.counterup.min.js"></script>
+         <script src="../assets/js/imgfix.min.js"></script>
+     
+         <!-- Global Init -->
+         <script src="../assets/js/custom.js"></script>
 </html>
