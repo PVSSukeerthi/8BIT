@@ -853,21 +853,21 @@ promotion
 }
 
 #c4 {
-  background-image:url(../../magazinePage/assets/images/mag1.png);
+  background-image:url(../images/nostalgia.png);
   background-size: cover;
 }
 
 #c3 {
-  background-image:url(../../magazinePage/assets/images/mag2.png);
+  background-image:url(../images/new.png);
   background-size: cover;}
 
 #c2 {
-  background-image:url(../../magazinePage/assets/images/mag3.png);
+  background-image:url(../../magazinePage/assets/images/mag1.png);
   background-size: cover;}
 
 
 #c1 {
-  background-image:url(../../magazinePage/assets/images/mag4.png);
+  background-image:url(../../magazinePage/assets/images/mag2.png);
   background-size: cover;}
 
 .main #c1 {
