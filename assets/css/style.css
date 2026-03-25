@@ -856,6 +856,10 @@ promotion
   background-image:url(../images/nostalgia.png);
   background-size: cover;
 }
+#c5 {
+  background-image:url(../images/Coverpage.png);
+  background-size: cover;
+}
 
 #c3 {
   background-image:url(../images/new.png);
@@ -871,19 +875,22 @@ promotion
   background-size: cover;}
 
 .main #c1 {
-  transform: translateX(-100px) rotate(-40deg);
+  transform: translateX(-100px) rotate(-50deg);
 }
 
 .main #c2 {
-  transform: translateX(-50px) rotate(-30deg);
+  transform: translateX(-50px) rotate(-40deg);
 }
 
 .main #c3 {
-  transform: translateX(0) rotate(-20deg);
+  transform: translateX(0) rotate(-30deg);
 }
 
 .main #c4 {
-  transform: translateX(50px) rotate(-10deg);
+  transform: translateX(50px) rotate(-20deg);
+}
+.main #c5 {
+  transform: translateX(100px) rotate(-10deg);
 }
 
 #c1:hover {
@@ -899,9 +906,11 @@ promotion
 }
 
 #c4:hover {
+  transform: translateX(0px) rotate(0deg) !important;
+}
+#c5:hover {
   transform: translateX(50px) rotate(0deg) !important;
 }
-
 .main {
   place-items: center;
   margin-left:100px;
